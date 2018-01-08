@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_highscore"
+        android:icon="@drawable/highscore_icon"
+        android:title="Highscore" />
+
+    <item
+        android:id="@+id/navigation_hangman"
+        android:icon="@drawable/hangman_icon"
+        android:title="Hangman" />
+
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/settings_icon"
+        android:title="Settings" />
+
+</menu>

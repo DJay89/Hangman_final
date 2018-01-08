@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="danny.hangman.fragments_navigation.settings">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <CheckBox
+        android:id="@+id/checkbox_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:text="Find words from dr.dk?"
+        />
+
+    <CheckBox
+        android:id="@+id/checkbox_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/checkbox_01"
+        android:text="Show words on screen?"
+        />
+
+    <CheckBox
+        android:id="@+id/checkbox_03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/checkbox_02"
+        android:text="Select word for the game?"
+        />
+
+    <Spinner
+        android:id="@+id/spinner01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/checkbox_03"
+        android:tooltipText="Select a word" />
+
+    <Button
+        android:id="@+id/button01"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner01"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Save" />
+
+    <TextView
+        android:id="@+id/tvSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button01"
+        android:textStyle="bold"
+        android:text="" />
+
+</RelativeLayout>
